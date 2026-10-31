@@ -1,0 +1,45 @@
+{
+  "run_id": "20261015-001615-run-01",
+  "name": "Run-01",
+  "mode": "full",
+  "status": "done",
+  "rounds_done": 120,
+  "total_rounds": 120,
+  "models": [
+    "claude-haiku-5-5"
+  ],
+  "solo": false,
+  "cost": 5.111986,
+  "calls": 4492,
+  "void": 1,
+  "refusals": 1,
+  "errors": 0,
+  "budget_usd": 10.0,
+  "created": "2026-10-15 00:16:15",
+  "phase_bounds": [
+    [
+      1,
+      30
+    ],
+    [
+      31,
+      90
+    ],
+    [
+      91,
+      120
+    ]
+  ],
+  "agents": 60,
+  "visits": 2255,
+  "config_hash": "e88634850796",
+  "versions": {
+    "python": "3.13.5",
+    "texts": "v1",
+    "anthropic": "1.8.0"
+  },
+  "message": "",
+  "finished": "2026-10-15 06:34:06",
+  "archived": "/Users/yuhan/Desktop/AI Social Simulation/Language/fake-moltbook/archive/20261015-001615-run-01.zip",
+  "archived_at": "2026-10-15 06:34:09"
+}

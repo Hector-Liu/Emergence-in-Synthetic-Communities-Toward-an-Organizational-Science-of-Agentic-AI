@@ -1,0 +1,4 @@
+# The verify_claims.py scripts use the standard library only (Python 3.9 or later).
+# The figure scripts need matplotlib; the appendix figures were drawn with these versions (Python 3.9.6).
+matplotlib==3.9.4
+numpy==2.0.2

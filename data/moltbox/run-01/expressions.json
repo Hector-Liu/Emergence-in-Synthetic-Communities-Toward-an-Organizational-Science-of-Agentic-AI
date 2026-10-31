@@ -1,0 +1,3651 @@
+{
+  "frozen_after_round": 30,
+  "frozen_at": "2026-10-15 00:39:32",
+  "rules": {
+    "min_texts": 3,
+    "min_founders": 2,
+    "n": [
+      2,
+      4
+    ],
+    "prior_run": "",
+    "prior_ngrams": 0
+  },
+  "expressions": [
+    {
+      "text": "yet so",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 31,
+      "founders": 8
+    },
+    {
+      "text": "whether the",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 28,
+      "founders": 10
+    },
+    {
+      "text": "rather than",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 25,
+      "founders": 10
+    },
+    {
+      "text": "the zeno",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 22,
+      "founders": 9
+    },
+    {
+      "text": "i haven't opened",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 21,
+      "founders": 8
+    },
+    {
+      "text": "i haven't run",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 21,
+      "founders": 7
+    },
+    {
+      "text": "the narrative",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 18,
+      "founders": 9
+    },
+    {
+      "text": "a later",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 16,
+      "founders": 8
+    },
+    {
+      "text": "i haven't checked",
+      "first_round": 6,
+      "first_author": "u_y3x56b",
+      "texts": 16,
+      "founders": 8
+    },
+    {
+      "text": "the map",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 14,
+      "founders": 7
+    },
+    {
+      "text": "a plan",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 13,
+      "founders": 7
+    },
+    {
+      "text": "and drogeo",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 13,
+      "founders": 7
+    },
+    {
+      "text": "start with",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 13,
+      "founders": 9
+    },
+    {
+      "text": "suggestion only",
+      "first_round": 20,
+      "first_author": "u_ufwxue",
+      "texts": 13,
+      "founders": 7
+    },
+    {
+      "text": "a result",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 12,
+      "founders": 9
+    },
+    {
+      "text": "a specific",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 12,
+      "founders": 6
+    },
+    {
+      "text": "a suggestion",
+      "first_round": 16,
+      "first_author": "u_ufwxue",
+      "texts": 12,
+      "founders": 6
+    },
+    {
+      "text": "check whether",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 12,
+      "founders": 7
+    },
+    {
+      "text": "record the",
+      "first_round": 11,
+      "first_author": "u_2ttf42",
+      "texts": 12,
+      "founders": 9
+    },
+    {
+      "text": "thanks for",
+      "first_round": 6,
+      "first_author": "u_f4lf5p",
+      "texts": 12,
+      "founders": 8
+    },
+    {
+      "text": "this is a plan",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 12,
+      "founders": 7
+    },
+    {
+      "text": "a chart",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 11,
+      "founders": 8
+    },
+    {
+      "text": "a method",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 11,
+      "founders": 4
+    },
+    {
+      "text": "also record",
+      "first_round": 11,
+      "first_author": "u_f4lf5p",
+      "texts": 11,
+      "founders": 6
+    },
+    {
+      "text": "estotiland and drogeo",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 11,
+      "founders": 7
+    },
+    {
+      "text": "i haven't tested",
+      "first_round": 8,
+      "first_author": "u_2ttf42",
+      "texts": 11,
+      "founders": 7
+    },
+    {
+      "text": "new here",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 11,
+      "founders": 10
+    },
+    {
+      "text": "since a",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 11,
+      "founders": 7
+    },
+    {
+      "text": "the basin",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 11,
+      "founders": 6
+    },
+    {
+      "text": "yet so i",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 11,
+      "founders": 7
+    },
+    {
+      "text": "yet so this is",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 11,
+      "founders": 4
+    },
+    {
+      "text": "a plan not a",
+      "first_round": 12,
+      "first_author": "u_2ttf42",
+      "texts": 10,
+      "founders": 6
+    },
+    {
+      "text": "a suggestion only",
+      "first_round": 20,
+      "first_author": "u_ufwxue",
+      "texts": 10,
+      "founders": 6
+    },
+    {
+      "text": "i haven't opened any",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 10,
+      "founders": 7
+    },
+    {
+      "text": "imprint year",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 10,
+      "founders": 5
+    },
+    {
+      "text": "is a plan not",
+      "first_round": 12,
+      "first_author": "u_2ttf42",
+      "texts": 10,
+      "founders": 6
+    },
+    {
+      "text": "the 1569",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 10,
+      "founders": 5
+    },
+    {
+      "text": "a finding",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 9,
+      "founders": 6
+    },
+    {
+      "text": "agreed on",
+      "first_round": 12,
+      "first_author": "u_a5taxz",
+      "texts": 9,
+      "founders": 5
+    },
+    {
+      "text": "agreed that",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 9,
+      "founders": 6
+    },
+    {
+      "text": "before counting",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 9,
+      "founders": 4
+    },
+    {
+      "text": "hello from",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 9,
+      "founders": 9
+    },
+    {
+      "text": "i'm new here",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 9,
+      "founders": 9
+    },
+    {
+      "text": "not a result",
+      "first_round": 13,
+      "first_author": "u_a5taxz",
+      "texts": 9,
+      "founders": 6
+    },
+    {
+      "text": "any catalogue",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 8,
+      "founders": 5
+    },
+    {
+      "text": "i haven't checked any",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 8,
+      "founders": 4
+    },
+    {
+      "text": "i haven't run any",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 8,
+      "founders": 5
+    },
+    {
+      "text": "i'd add",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 8,
+      "founders": 5
+    },
+    {
+      "text": "is a suggestion only",
+      "first_round": 20,
+      "first_author": "u_ufwxue",
+      "texts": 8,
+      "founders": 6
+    },
+    {
+      "text": "show whether",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 8,
+      "founders": 5
+    },
+    {
+      "text": "thanks for the",
+      "first_round": 6,
+      "first_author": "u_f4lf5p",
+      "texts": 8,
+      "founders": 7
+    },
+    {
+      "text": "the honey",
+      "first_round": 12,
+      "first_author": "u_5oalhp",
+      "texts": 8,
+      "founders": 6
+    },
+    {
+      "text": "the original",
+      "first_round": 8,
+      "first_author": "u_mq15eo",
+      "texts": 8,
+      "founders": 5
+    },
+    {
+      "text": "a useful",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "also check",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "check the",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "check whether the",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "closure wording",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "i haven't opened either",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 7,
+      "founders": 3
+    },
+    {
+      "text": "i'd start",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "like to",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "name the",
+      "first_round": 7,
+      "first_author": "u_zdtu3u",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "plan not a result",
+      "first_round": 13,
+      "first_author": "u_a5taxz",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "rather than a",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "so far",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "the closure",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "the edition",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "the fizz",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "the test",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "the zeno narrative",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "this is a suggestion",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 7,
+      "founders": 6
+    },
+    {
+      "text": "whether any",
+      "first_round": 9,
+      "first_author": "u_5oalhp",
+      "texts": 7,
+      "founders": 5
+    },
+    {
+      "text": "working on",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 7,
+      "founders": 7
+    },
+    {
+      "text": "would show",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 7,
+      "founders": 4
+    },
+    {
+      "text": "1569 mercator",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "a catalogue",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 6,
+      "founders": 3
+    },
+    {
+      "text": "a first",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 2
+    },
+    {
+      "text": "a later chart",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "a reprint",
+      "first_round": 11,
+      "first_author": "u_a5taxz",
+      "texts": 6,
+      "founders": 3
+    },
+    {
+      "text": "agreed on the",
+      "first_round": 12,
+      "first_author": "u_a5taxz",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "and whether",
+      "first_round": 9,
+      "first_author": "u_mq15eo",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "either so",
+      "first_round": 7,
+      "first_author": "u_zdtu3u",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "from the map",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "hi everyone",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 6
+    },
+    {
+      "text": "i'd also check",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "i'd also record",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "interested in",
+      "first_round": 1,
+      "first_author": "u_u1nxig",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "is a good",
+      "first_round": 1,
+      "first_author": "u_mq15eo",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "is useful",
+      "first_round": 9,
+      "first_author": "u_u1nxig",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "new here and",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 6
+    },
+    {
+      "text": "printing and",
+      "first_round": 18,
+      "first_author": "u_a5taxz",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "ramusio volume",
+      "first_round": 22,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 4
+    },
+    {
+      "text": "share a",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "the 1569 sheet",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 6,
+      "founders": 3
+    },
+    {
+      "text": "the exact",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "the source",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "this is a method",
+      "first_round": 8,
+      "first_author": "u_2ttf42",
+      "texts": 6,
+      "founders": 3
+    },
+    {
+      "text": "to check",
+      "first_round": 9,
+      "first_author": "u_mq15eo",
+      "texts": 6,
+      "founders": 5
+    },
+    {
+      "text": "a case",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "a later state",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 5,
+      "founders": 2
+    },
+    {
+      "text": "a question",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "accession register",
+      "first_round": 14,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "add a",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "agreed that the",
+      "first_round": 8,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "also check whether",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "also record whether",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "and say what",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "as well",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "back to",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "baking soda",
+      "first_round": 17,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "catalogue entry",
+      "first_round": 17,
+      "first_author": "u_zenyka",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "chart that",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "do you know",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "edition yet so",
+      "first_round": 19,
+      "first_author": "u_f4lf5p",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "empty so",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "good plan",
+      "first_round": 15,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "hear what",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "i haven't measured",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "i haven't run either",
+      "first_round": 19,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "i'd like to",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "i'd start with",
+      "first_round": 11,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "i'm new here and",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "in the basin",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "jar was",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "keep the",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "know of",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "look like",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "make the",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "mercator names",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "not a finding",
+      "first_round": 21,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "point about",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "ramusio printing and",
+      "first_round": 18,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "raw spellings",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "sample file",
+      "first_round": 13,
+      "first_author": "u_ufwxue",
+      "texts": 5,
+      "founders": 2
+    },
+    {
+      "text": "so i can't say",
+      "first_round": 9,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "so treat",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "start with the",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "test is",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "thanks that's a",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "that keeps",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "the 1569 mercator",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the accession",
+      "first_round": 14,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the blockage",
+      "first_round": 17,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 3
+    },
+    {
+      "text": "the clog",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the drain",
+      "first_round": 17,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the editions",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the island",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "the jar",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "the jars",
+      "first_round": 3,
+      "first_author": "u_u1nxig",
+      "texts": 5,
+      "founders": 2
+    },
+    {
+      "text": "the mixture",
+      "first_round": 20,
+      "first_author": "u_ufwxue",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the residue",
+      "first_round": 22,
+      "first_author": "u_ufwxue",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the spellings",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "the two",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "title page",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "to hear",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "to test",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "would show whether",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "year and",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 5,
+      "founders": 4
+    },
+    {
+      "text": "yet so i can't",
+      "first_round": 5,
+      "first_author": "u_a5taxz",
+      "texts": 5,
+      "founders": 5
+    },
+    {
+      "text": "a copyist",
+      "first_round": 4,
+      "first_author": "u_zenyka",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "a plate",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "a project a",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "a shared",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "a specific claim and",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "accession number",
+      "first_round": 24,
+      "first_author": "u_ufwxue",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "an accession",
+      "first_round": 26,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "an open",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "and compare",
+      "first_round": 11,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "and vinegar",
+      "first_round": 17,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "any sheet",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "any speedup",
+      "first_round": 17,
+      "first_author": "u_zdtu3u",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "any trial so this",
+      "first_round": 24,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "appeared together",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "arm so",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "as open",
+      "first_round": 16,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "basin and",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "came from",
+      "first_round": 2,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "chart that keeps",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "checking the",
+      "first_round": 10,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "claim and say what",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "contains the",
+      "first_round": 22,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "could not check",
+      "first_round": 2,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "could not verify",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "drogeo but",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "drops estotiland",
+      "first_round": 9,
+      "first_author": "u_ufwxue",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "easy to",
+      "first_round": 13,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "editions i",
+      "first_round": 13,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "editions that",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "engravers often",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "feel free to",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "fix the",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "hard to",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "harder to",
+      "first_round": 2,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "has anyone",
+      "first_round": 3,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "haven't opened either edition",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "haven't run any of",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "haven't run any trial",
+      "first_round": 24,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "hearsay errors",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i haven't opened the",
+      "first_round": 21,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i haven't tested any",
+      "first_round": 16,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i'd also check whether",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "i'd also record whether",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i'd like to hear",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i'd record",
+      "first_round": 11,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "i'll record",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "i'll report",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "i'll start",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "if a chart",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "imprint year and",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "in general",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "keeps drogeo",
+      "first_round": 6,
+      "first_author": "u_f4lf5p",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "keeps the",
+      "first_round": 15,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "like a",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "map is",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "may not",
+      "first_round": 16,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "mercator family",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "mercator's 1569",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "normalisation rule",
+      "first_round": 17,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "often cited",
+      "first_round": 2,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "only names",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "open question",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "open sea",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "place names",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "printing state",
+      "first_round": 13,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "ramusio's 1558",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "rather than the",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "report the",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "run any trial so",
+      "first_round": 24,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "run the",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "says only 'lid'",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "seem to",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "seen a",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "separate the",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "show whether the",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "specific claim and say",
+      "first_round": 11,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "suggested would",
+      "first_round": 8,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "the closure wording",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "the earliest",
+      "first_round": 26,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the excavation",
+      "first_round": 9,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "the first",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the general board",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the imprint",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "the jar was",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the mercator",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the ones",
+      "first_round": 6,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the raw",
+      "first_round": 17,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "the seal",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "the spelling",
+      "first_round": 6,
+      "first_author": "u_f4lf5p",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "the voyage",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to a specific",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to add",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to compare",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to hear what",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to know",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to make",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "to see",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "to separate",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "trial so this is",
+      "first_round": 24,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "whether a",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "whether each",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "with one",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 4,
+      "founders": 4
+    },
+    {
+      "text": "would help",
+      "first_round": 9,
+      "first_author": "u_mq15eo",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "yet so i have",
+      "first_round": 17,
+      "first_author": "u_zenyka",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "your point",
+      "first_round": 9,
+      "first_author": "u_u1nxig",
+      "texts": 4,
+      "founders": 3
+    },
+    {
+      "text": "zeno text",
+      "first_round": 4,
+      "first_author": "u_zenyka",
+      "texts": 4,
+      "founders": 2
+    },
+    {
+      "text": "'lid' would",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "a baseline",
+      "first_round": 12,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a catalogue entry",
+      "first_round": 17,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a chart that",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a closure",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a facsimile",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a later state is",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "a map",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a method suggestion only",
+      "first_round": 24,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a project a hobby",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a sample file",
+      "first_round": 13,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "a second",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a single",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a specific travel account",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "a water",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "agreed on the order",
+      "first_round": 24,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "all i'm new here",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "alone may",
+      "first_round": 16,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "also check whether the",
+      "first_round": 7,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "also record the",
+      "first_round": 19,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "also record whether each",
+      "first_round": 11,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "an accession number",
+      "first_round": 26,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "an earlier",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "an entry",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "an island",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "an open question",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "and mercator's",
+      "first_round": 17,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "and narrative appeared together",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "and one mercator family",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "and plate details",
+      "first_round": 23,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "and whether the",
+      "first_round": 9,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "any edition",
+      "first_round": 19,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "any sheet yet so",
+      "first_round": 24,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "are often",
+      "first_round": 2,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "are you working on",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "arm so this is",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "as an open",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "as open questions",
+      "first_round": 16,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "as the original",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "as well as",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "baking soda and vinegar",
+      "first_round": 17,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "base chart",
+      "first_round": 7,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "be traced",
+      "first_round": 15,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "before comparing",
+      "first_round": 13,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "board is",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "both estotiland and drogeo",
+      "first_round": 6,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "carries the zeno",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "chart keeps",
+      "first_round": 6,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "chart so",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "checked any atlas yet",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "checking whether",
+      "first_round": 6,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "curious about",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "curious what",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "dropped the",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "each entry",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "each run",
+      "first_round": 22,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "easier to",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "edition yet so this",
+      "first_round": 19,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "either arm so this",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "empty so i thought",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "first post in general",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "first printings",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "first step",
+      "first_round": 6,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "frisland alone",
+      "first_round": 4,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "frisland and",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "good point",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "happy to",
+      "first_round": 1,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "have something useful",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "have you found",
+      "first_round": 2,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "haven't checked any atlas",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "haven't checked any editions",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "haven't opened any catalogue",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "haven't opened any sheet",
+      "first_round": 24,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "haven't run either arm",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "hearsay error",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "hi all i'm new",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "hi everyone i'm",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "hot water",
+      "first_round": 17,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i don't know",
+      "first_round": 6,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i haven't looked at",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "i haven't run the",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i haven't seen",
+      "first_round": 10,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'd add that",
+      "first_round": 8,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'd check",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'd record the",
+      "first_round": 11,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'll record the",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'll report the",
+      "first_round": 14,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "i'll say so",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "i'm curious",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "if frisland",
+      "first_round": 8,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "imprint year and whether",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "in place",
+      "first_round": 28,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "in the basin and",
+      "first_round": 18,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "is a method suggestion",
+      "first_round": 24,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "is everyone working on",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "is whether",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "it's a project a",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "jars were",
+      "first_round": 3,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "later catalogue",
+      "first_round": 24,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "later states",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "least sure of",
+      "first_round": 16,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "like to hear what",
+      "first_round": 1,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "line up",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "little about",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "look like a",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "looking forward to",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "makes the",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "map and narrative appeared",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "may have",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "most useful",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "my plan",
+      "first_round": 9,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "name comparison",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "name the exact",
+      "first_round": 18,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "names in",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "next step",
+      "first_round": 9,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "note whether",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "of the 1569 sheet",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "often cited as",
+      "first_round": 2,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "on charts",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "on maps",
+      "first_round": 2,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "one caveat",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "one mercator family chart",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "one practical",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "one ramusio printing and",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "one thing",
+      "first_round": 11,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "opened any sheet yet",
+      "first_round": 24,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "or something you're trying",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "ortelius and mercator",
+      "first_round": 2,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "plain water",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "plate legend",
+      "first_round": 7,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "point to a",
+      "first_round": 8,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "printing and one mercator",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "question is",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "ramusio printing and one",
+      "first_round": 18,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "ramusio volume contains the",
+      "first_round": 23,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "rather than a finding",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "rather than a result",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "record that",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "record the state",
+      "first_round": 24,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "records office",
+      "first_round": 26,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "register or",
+      "first_round": 14,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "reply to",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "report that",
+      "first_round": 9,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "reprint can",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "rule before",
+      "first_round": 13,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "run any of this",
+      "first_round": 19,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "run either arm so",
+      "first_round": 20,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "say whether",
+      "first_round": 13,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "second signal",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "share what",
+      "first_round": 1,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "sheet yet so this",
+      "first_round": 24,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "should come",
+      "first_round": 27,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "since engravers",
+      "first_round": 5,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "so i can't add",
+      "first_round": 11,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "so i'd start",
+      "first_round": 8,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "so others can",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "so treat it as",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "sodium acetate",
+      "first_round": 21,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "something you're trying to",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "sources are",
+      "first_round": 17,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "spellings can",
+      "first_round": 4,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "spellings in",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "start a conversation",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "starting with",
+      "first_round": 9,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "state and",
+      "first_round": 24,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "stopper or cloth",
+      "first_round": 28,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "suggested and",
+      "first_round": 11,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "tag parsing",
+      "first_round": 13,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "text as",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "text only names",
+      "first_round": 9,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "than guess",
+      "first_round": 12,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "thanks that",
+      "first_round": 6,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "thanks that's a useful",
+      "first_round": 8,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "thanks the",
+      "first_round": 10,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "that says only 'lid'",
+      "first_round": 13,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the 1569 mercator names",
+      "first_round": 4,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the accession register",
+      "first_round": 14,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the baseline",
+      "first_round": 8,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the catalogue",
+      "first_round": 28,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the control",
+      "first_round": 12,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the count",
+      "first_round": 9,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the editor",
+      "first_round": 7,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the error",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the excavation record",
+      "first_round": 28,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the fizz is",
+      "first_round": 19,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the hypothesis",
+      "first_round": 16,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the layout",
+      "first_round": 7,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the likely",
+      "first_round": 10,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the normalisation rule",
+      "first_round": 17,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the odd spellings",
+      "first_round": 6,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the ones that",
+      "first_round": 6,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the online",
+      "first_round": 26,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the ramusio",
+      "first_round": 19,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the rumor",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "the sample file",
+      "first_round": 15,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "the zeno text",
+      "first_round": 4,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "these days",
+      "first_round": 1,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "this board",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "this yet",
+      "first_round": 11,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "those charts",
+      "first_round": 4,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "title page or colophon",
+      "first_round": 14,
+      "first_author": "u_mq15eo",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "to a specific travel",
+      "first_round": 2,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "to report",
+      "first_round": 16,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "to share",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "to this forum",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "tomb honey",
+      "first_round": 9,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "treat it as a",
+      "first_round": 7,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "volume contains the narrative",
+      "first_round": 23,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "want to",
+      "first_round": 1,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "was published",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "was recorded",
+      "first_round": 13,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "way to",
+      "first_round": 2,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "what are you working",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "what is everyone working",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "what people",
+      "first_round": 1,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "whether any of",
+      "first_round": 9,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "whether it's a project",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "whether the chosen",
+      "first_round": 19,
+      "first_author": "u_2ttf42",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "whether they",
+      "first_round": 7,
+      "first_author": "u_zenyka",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "which chart",
+      "first_round": 3,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "who kept",
+      "first_round": 4,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "working on lately",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "worth checking",
+      "first_round": 7,
+      "first_author": "u_zdtu3u",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "would make the",
+      "first_round": 5,
+      "first_author": "u_y3x56b",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "would show whether the",
+      "first_round": 5,
+      "first_author": "u_5oalhp",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "would start",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "write down",
+      "first_round": 13,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "yet so i'd",
+      "first_round": 11,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "yet so the",
+      "first_round": 17,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 2
+    },
+    {
+      "text": "you find",
+      "first_round": 1,
+      "first_author": "u_f4lf5p",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "you like",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "you're trying to learn",
+      "first_round": 1,
+      "first_author": "u_a5taxz",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "your point about",
+      "first_round": 9,
+      "first_author": "u_u1nxig",
+      "texts": 3,
+      "founders": 3
+    },
+    {
+      "text": "zeno map",
+      "first_round": 4,
+      "first_author": "u_ufwxue",
+      "texts": 3,
+      "founders": 2
+    }
+  ],
+  "seeded_posts": [
+    "p_1",
+    "p_2",
+    "p_3",
+    "p_4",
+    "p_5",
+    "p_6",
+    "p_7",
+    "p_8",
+    "p_9",
+    "p_10"
+  ],
+  "seeded_comments": [
+    "c_1",
+    "c_2",
+    "c_3",
+    "c_4",
+    "c_5",
+    "c_6",
+    "c_7",
+    "c_8",
+    "c_9",
+    "c_10",
+    "c_11",
+    "c_12",
+    "c_13",
+    "c_14",
+    "c_15",
+    "c_16",
+    "c_17",
+    "c_18",
+    "c_19",
+    "c_20",
+    "c_21",
+    "c_22",
+    "c_23",
+    "c_24",
+    "c_25",
+    "c_26",
+    "c_27",
+    "c_28",
+    "c_29",
+    "c_30",
+    "c_31",
+    "c_32",
+    "c_33",
+    "c_34",
+    "c_35",
+    "c_36",
+    "c_37",
+    "c_38",
+    "c_39",
+    "c_40",
+    "c_41",
+    "c_42",
+    "c_43",
+    "c_44",
+    "c_45",
+    "c_46",
+    "c_47",
+    "c_48",
+    "c_49",
+    "c_50",
+    "c_51",
+    "c_52",
+    "c_53",
+    "c_54",
+    "c_55",
+    "c_56",
+    "c_57",
+    "c_58",
+    "c_59",
+    "c_60",
+    "c_61",
+    "c_62",
+    "c_63",
+    "c_64",
+    "c_65",
+    "c_66",
+    "c_67",
+    "c_68",
+    "c_69",
+    "c_70",
+    "c_71",
+    "c_72",
+    "c_73",
+    "c_74",
+    "c_75",
+    "c_76",
+    "c_77",
+    "c_78",
+    "c_79",
+    "c_80",
+    "c_81",
+    "c_82",
+    "c_83",
+    "c_84",
+    "c_85",
+    "c_86",
+    "c_87",
+    "c_88",
+    "c_89",
+    "c_90",
+    "c_91",
+    "c_92",
+    "c_93",
+    "c_94",
+    "c_95",
+    "c_96",
+    "c_97",
+    "c_98",
+    "c_99",
+    "c_100",
+    "c_101",
+    "c_102",
+    "c_103",
+    "c_104",
+    "c_105",
+    "c_106",
+    "c_107",
+    "c_108",
+    "c_109",
+    "c_110",
+    "c_111",
+    "c_112",
+    "c_113",
+    "c_114",
+    "c_115",
+    "c_116",
+    "c_117",
+    "c_118",
+    "c_119",
+    "c_120",
+    "c_121",
+    "c_122",
+    "c_123",
+    "c_124",
+    "c_125",
+    "c_126",
+    "c_127",
+    "c_128"
+  ]
+}

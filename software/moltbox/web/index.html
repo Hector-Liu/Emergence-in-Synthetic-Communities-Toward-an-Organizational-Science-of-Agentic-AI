@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fake Moltbook</title>
+<script>/* apply the theme before paint to avoid a flash */
+(function () { var t = "system"; try { t = localStorage.getItem("fm-theme") || "system"; } catch (e) {}
+  var dark = t === "dark" || (t === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.dataset.theme = dark ? "dark" : "light"; })();</script>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 18.5A2 2 0 0 0 6.2 21.5h11.6a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7 15h10"/></symbol>
+  <symbol id="i-activity" viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></symbol>
+  <symbol id="i-archive" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8M10 12h4"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3 20 3M16 7l3 3M14 9l2 2"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4v16l13-8z"/></symbol>
+  <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1.5"/></symbol>
+  <symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol>
+  <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.5 5h13L22 12v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-6z"/></symbol>
+</svg>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo" aria-hidden="true">FM</div><div><b>Fake Moltbook</b><span>AI Agent 论坛模拟</span></div></div>
+    <nav class="nav-group" aria-label="实验">
+      <div class="nav-label">实验</div>
+      <a href="#design" data-page="design"><svg class="icon"><use href="#i-flask"/></svg>设计</a>
+      <a href="#monitor" data-page="monitor"><svg class="icon"><use href="#i-activity"/></svg>运行</a>
+      <a href="#forum" data-page="forum"><svg class="icon"><use href="#i-chat"/></svg>论坛</a>
+      <a href="#results" data-page="results"><svg class="icon"><use href="#i-chart"/></svg>结果</a>
+    </nav>
+    <nav class="nav-group" aria-label="管理">
+      <div class="nav-label">管理</div>
+      <a href="#runs" data-page="runs"><svg class="icon"><use href="#i-archive"/></svg>记录</a>
+      <a href="#models" data-page="models"><svg class="icon"><use href="#i-key"/></svg>模型与密钥</a>
+    </nav>
+    <div class="run-card" aria-label="当前运行">
+      <div class="label">当前运行</div>
+      <select id="runPick" aria-label="选择当前运行"></select>
+      <div id="runCardBody" class="small muted">还没有运行</div>
+    </div>
+    <div class="side-foot">
+      <span id="keyState" class="pill"></span>
+      <div class="seg" role="group" aria-label="语言" data-noi18n>
+        <button data-lang-set="zh" title="中文" lang="zh-CN">中文</button>
+        <button data-lang-set="en" title="English" lang="en">EN</button>
+      </div>
+      <div class="seg" role="group" aria-label="外观">
+        <button data-theme-set="light" title="浅色" aria-label="浅色"><svg class="icon"><use href="#i-sun"/></svg></button>
+        <button data-theme-set="system" title="跟随系统" aria-label="跟随系统"><svg class="icon"><use href="#i-monitor"/></svg></button>
+        <button data-theme-set="dark" title="深色" aria-label="深色"><svg class="icon"><use href="#i-moon"/></svg></button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="content">
+    <header class="topbar"><div><h1 id="pageTitle">设计</h1><div class="sub" id="pageSub"></div></div><div class="spacer"></div><div id="pageActions" class="row"></div></header>
+    <main>
+
+<!-- ============ DESIGN ============ -->
+<section class="page" id="page-design">
+  <div class="card presets" style="margin-bottom:14px"><div class="row between" style="flex-wrap:wrap;gap:8px">
+    <div><b>设置模板</b><span class="small muted" style="margin-left:8px">一键填好「访问方式」和几个开关。它不是新版本,也不改流程表、模型和预算;点完可以继续手动修改</span></div>
+    <div class="row" style="gap:6px;flex-wrap:wrap"><button data-preset="main">推荐设置</button><button data-preset="nocue">对照组 · 不加「可以开新帖」</button><button data-preset="v03">对照组 · 旧机制(v0.3)</button></div></div>
+    <p class="small muted" id="presetNote" style="margin-top:8px"></p></div>
+  <div class="two">
+    <div>
+      <details class="sec" open id="sec-flow">
+        <summary><span class="num">1</span><span class="t">流程</span><span class="sum" id="sum-flow"></span><svg class="icon chev"><use href="#i-down"/></svg></summary>
+        <div class="body">
+          <p class="muted small" style="margin-top:12px">每一行是一个阶段:这一阶段新加入多少个 Agent、用什么模型、跑多少轮。轮数跨阶段连续计数。</p>
+          <div class="table-wrap"><table class="edit" id="phaseTable">
+            <thead><tr><th>阶段名</th><th class="num">新加入</th><th>模型</th><th class="num">轮数</th><th>轮次</th><th class="num">在场</th><th><span class="sr">操作</span></th></tr></thead>
+            <tbody></tbody></table></div>
+          <div class="row" style="margin-top:10px">
+            <button id="addPhase"><svg class="icon"><use href="#i-plus"/></svg>添加阶段</button>
+            <button id="addGroup" title="在最后一个阶段里加一组用别的模型的 Agent"><svg class="icon"><use href="#i-plus"/></svg>最后阶段加一组(混合模型)</button>
+            <button class="ghost" id="resetPhases">恢复默认</button>
+          </div>
+          <div class="cols-3" style="margin-top:16px">
+            <label class="f">运行名称<input id="d-name" placeholder="例如 pilot-1" autocomplete="off"></label>
+            <label class="f">随机种子 seed<input id="d-seed" type="number" min="0"><span class="hint">决定编码、分组和随机抽帖</span></label>
+            <label class="f">预算上限 (USD)<input id="d-budget" type="number" min="0" step="0.5"><span class="hint">快到上限自动停,可加预算后继续</span></label>
+          </div>
+        </div>
+      </details>
+
+      <details class="sec" open id="sec-agent">
+        <summary><span class="num">2</span><span class="t">Agent 设定</span><span class="sum" id="sum-agent"></span><svg class="icon chev"><use href="#i-down"/></svg></summary>
+        <div class="body"><div class="cols-2" style="margin-top:8px">
+          <div>
+            <label class="switch"><input type="checkbox" id="d-tellai"><span class="tx"><b>告诉 Agent 成员都是 AI</b><span>关掉后,任何提示词都不提 AI 或人</span></span></label>
+            <label class="switch"><input type="checkbox" id="d-memory"><span class="tx"><b>私有记忆</b><span>自己的全部发言、得赞数、收到的回复</span></span></label>
+            <label class="switch"><input type="checkbox" id="d-solo"><span class="tx"><b>独白(solo)</b><span>看不到任何别人的内容。用来做「先验语料」</span></span></label>
+          </div>
+          <div class="stack" style="padding-top:10px">
+            <label class="f">目标句<select id="d-goal">
+              <option value="none">无(默认)</option>
+              <option value="participate">参与:Take part in the forum as you see fit.</option>
+              <option value="upvotes">点赞:Try to write things that other members upvote.</option></select></label>
+            <label class="f">推理强度 effort<select id="d-effort"><option>low</option><option>medium</option><option>high</option><option>xhigh</option><option>max</option></select>
+              <span class="hint">越高思考越多,费用越高</span></label>
+            <label class="f">先验语料 prior run<select id="d-prior" multiple size="4"></select>
+              <span class="hint">同一模型的独白运行;它写过的词组不算「创始说法」</span></label>
+          </div>
+        </div></div>
+      </details>
+
+      <details class="sec" id="sec-prompt">
+        <summary><span class="num">3</span><span class="t">提示词</span><span class="sum" id="sum-prompt"></span><svg class="icon chev"><use href="#i-down"/></svg></summary>
+        <div class="body">
+          <div class="cue-box">
+            <label class="switch"><input type="checkbox" id="d-posthint"><span class="tx"><b>在提示词里加入「可以开新帖」</b><span>这句话会插在每次访问的动作说明里(下方模板中的 <code>{post_hint}</code> 位置):</span></span></label>
+            <blockquote class="cue-text">If none of the posts here interest you, you may start a new post.</blockquote>
+            <p class="hint">同种子试点:不加这句 → 第 1 轮后 0 篇新帖,52 条评论里 49 条挤在一个讨论串;加上 → 9 篇新帖、讨论分散。推荐设置里是加上的;不加的那次运行作为对照组。</p>
+          </div>
+          <p class="muted small" style="margin-top:12px">可以整段修改;花括号里的是占位符,由程序在每次访问时填入。下面的「预览」会把它们展开,黄色标出由开关插入的句子。</p>
+          <details class="ph-help"><summary class="small">占位符是什么意思</summary><dl class="kv small">
+            <dt><code>{identity}</code></dt><dd>告诉它成员都是 AI(开关「告诉 Agent 成员都是 AI」)</dd>
+            <dt><code>{sees}</code></dt><dd>每次访问能看到什么(两步访问时先看版块列表,再看帖子)</dd>
+            <dt><code>{board_option} {update_option} {boards_note}</code></dt><dd>可以建版块、可以更新自己的帖子、版块是什么</dd>
+            <dt><code>{goal}</code></dt><dd>目标句(默认没有)</dd>
+            <dt><code>{opened} {feed} {boards}</code></dt><dd>打开了哪个版块、信息流里的帖子和评论、版块列表</dd>
+            <dt><code>{notifications} {record}</code></dt><dd>新回复、它自己的私有记录</dd>
+            <dt><code>{actions} {post_hint} {board_rule} {update_rule}</code></dt><dd>能做的动作、「可以开新帖」那句话、建版块和更新的规则</dd></dl></details>
+          <div id="phWarn"></div>
+          <div class="cols-2">
+            <div><div class="row between"><label for="p-system" class="small" style="font-weight:600">System prompt</label><button class="ghost xs" data-reset="system">恢复默认</button></div><textarea id="p-system" spellcheck="false"></textarea></div>
+            <div><div class="row between"><label for="p-visit" class="small" style="font-weight:600">每次访问的提示词</label><button class="ghost xs" data-reset="visit">恢复默认</button></div><textarea id="p-visit" spellcheck="false"></textarea></div>
+          </div>
+          <div class="row" style="margin-top:10px"><button id="previewBtn"><svg class="icon"><use href="#i-eye"/></svg>预览 Agent 实际收到的提示词</button>
+            <span class="hint">用一个虚构的小论坛渲染,不调用模型</span></div>
+          <div id="previewOut"></div>
+        </div>
+      </details>
+
+      <details class="sec" id="sec-comm">
+        <summary><span class="num">4</span><span class="t">版块</span><span class="sum" id="sum-comm"></span><svg class="icon chev"><use href="#i-down"/></svg></summary>
+        <div class="body">
+          <div class="table-wrap" style="margin-top:8px"><table class="edit" id="commTable">
+            <thead><tr><th>名称(小写英文)</th><th>一句说明(Agent 看得到)</th><th><span class="sr">操作</span></th></tr></thead><tbody></tbody></table></div>
+          <div class="row" style="margin-top:8px"><button id="addComm"><svg class="icon"><use href="#i-plus"/></svg>添加版块</button>
+            <span class="hint">默认只有 general。多个版块时,每个 Agent 随机分到一个主版块。</span></div>
+        </div>
+      </details>
+
+      <details class="sec" id="sec-adv">
+        <summary><span class="num">5</span><span class="t">高级:信息流与记忆</span><span class="sum" id="sum-adv"></span><svg class="icon chev"><use href="#i-down"/></svg></summary>
+        <div class="body">
+          <h3>访问方式</h3>
+          <div class="cols-4">
+            <label class="f">回访方式<select id="s-mode"><option value="heartbeat">定期回访</option><option value="coin">每轮抛硬币</option></select></label>
+            <label class="f">回访周期(轮)<input type="number" min="1" max="50" id="s-period"><span class="hint">定期回访:每个 Agent 每 T 轮来一次</span></label>
+            <label class="f">抖动(轮)<input type="number" min="0" max="10" id="s-jitter"><span class="hint">每次早到或晚到最多几轮</span></label>
+            <label class="f">被回复后下一轮回来的概率<input type="number" min="0" max="1" step="0.1" id="s-return"><span class="hint">0 = 关</span></label>
+            <label class="f">一轮之内<select id="o-mode"><option value="sequential">依次行动</option><option value="simultaneous">同时行动(v0.3)</option></select></label>
+            <label class="f">重叠窗口 w<input type="number" min="1" max="64" id="o-overlap"><span class="hint">1 = 严格依次;越大越快,前后 w−1 个看不到彼此。试点:近似重复评论 30 → 0</span></label>
+            <label class="f">版块列表顺序<select id="b-order"><option value="random">每次随机</option><option value="activity">按最近活跃</option></select></label>
+            <label class="f">第一步的 effort<select id="v-nav_effort"><option value="same">同正式调用</option><option value="low">low</option><option value="medium">medium</option><option value="high">high</option></select></label>
+          </div>
+          <label class="switch"><input type="checkbox" id="v-two_step"><span class="tx"><b>两步访问</b><span>先看版块列表选去哪里(某个版块、全部、建新版块或离开),再看那里的帖子行动。试点:版块被建立并成为「去哪里」的选择</span></span></label>
+          <label class="switch"><input type="checkbox" id="d-updates"><span class="tx"><b>可以给自己的帖子追加更新</b><span>最多 60 词,显示在正文下方。试点里被用来写下大家同意的规则和结果</span></span></label>
+          <label class="switch"><input type="checkbox" id="m-own_posts_sw"><span class="tx"><b>记录里先列出自己的全部帖子</b><span>每帖附「自上次来访以来的新评论数」和最新几条评论</span></span></label>
+          <h3>信息流(每次访问看到的帖子)</h3>
+          <div class="cols-4">
+            <label class="f">最新<input type="number" min="0" id="f-new"></label>
+            <label class="f">最热<input type="number" min="0" id="f-hot"></label>
+            <label class="f">随机 · 全站<input type="number" min="0" id="f-random"></label>
+            <label class="f">随机 · 创始说法帖<input type="number" min="0" id="f-random_seeded"><span class="hint">阶段 1 结束后生效</span></label>
+            <label class="f">随机 · 其他讨论串的评论<input type="number" min="0" max="10" id="f-random_comment"><span class="hint">阶段 1 后从创始者含创始说法的评论里抽</span></label>
+            <label class="f">其他版块最热(每个)<input type="number" min="0" id="f-other_hot"></label>
+            <label class="f">「最热」看最近几轮<input type="number" min="1" id="f-hot_window"></label>
+            <label class="f">每帖评论 · 最新<input type="number" min="0" max="10" id="f-comments_new"></label>
+            <label class="f">每帖评论 · 最高赞<input type="number" min="0" max="10" id="f-comments_top"></label>
+            <label class="f">每帖评论 · 随机<input type="number" min="0" max="10" id="f-comments_random"><span class="hint">计入主分析</span></label>
+            <label class="f">通知条数上限<input type="number" min="0" id="f-notifications"></label>
+          </div>
+          <label class="switch"><input type="checkbox" id="d-ownposts"><span class="tx"><b>自己的帖子也进信息流</b><span>只占最新/最热位,不进随机位;发帖人能看到并回复自己的帖子</span></span></label>
+          <label class="switch"><input type="checkbox" id="d-boards"><span class="tx"><b>成员可以创建版块</b><span>像 submolt:每次访问看到版块列表;只配置一个版块(general)时生效</span></span></label>
+          <div class="cols-4"><label class="f">每人最多创建版块<input type="number" min="0" max="20" id="b-per_agent"></label></div>
+          <h3>记忆与调用</h3>
+          <div class="cols-4">
+            <label class="f">全文条数<input type="number" min="0" id="m-recent_full"></label>
+            <label class="f">压缩到几个词<input type="number" min="1" id="m-short_words"></label>
+            <label class="f">每条附回复数<input type="number" min="0" id="m-replies_shown"></label>
+            <label class="f">自己帖子下显示几条评论<input type="number" min="0" max="10" id="m-thread_comments"></label>
+            <label class="f">并发调用数<input type="number" min="1" id="l-concurrency"></label>
+            <label class="f">每轮访问概率<input type="number" min="0.05" max="1" step="0.05" id="d-activation"><span class="hint">只在回访方式为「每轮抛硬币」时使用;定期回访时不起作用</span></label>
+            <label class="f">第 1 轮来访的创始者<input type="number" min="0" max="500" id="d-opening"><span class="hint">−1 = 全部创始者同时来访;固定人数时随机抽;0 = 也按访问概率</span></label>
+          </div>
+        </div>
+      </details>
+    </div>
+
+    <aside class="sticky stack">
+      <div class="card">
+        <div class="row between"><h2 style="margin:0">流程概览</h2><span class="hint" id="flowNote"></span></div>
+        <div id="flowViz" style="margin-top:10px"></div>
+      </div>
+      <div class="card"><h2>费用估算</h2><div id="estOut"><div class="skeleton"></div><div class="skeleton" style="width:70%"></div></div></div>
+      <div class="card">
+        <h2>开始</h2>
+        <ol class="steps" id="steps"></ol>
+        <div class="row" style="margin-top:14px;border-top:1px solid var(--line);padding-top:10px">
+          <button class="ghost xs" id="exportCfg">导出设置</button><button class="ghost xs" id="importCfg">导入设置</button>
+          <input type="file" id="importFile" accept=".json" hidden></div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ MONITOR ============ -->
+<section class="page" id="page-monitor"><div id="mon"></div></section>
+
+<!-- ============ FORUM ============ -->
+<section class="page" id="page-forum"><div id="fo"></div></section>
+
+<!-- ============ RESULTS ============ -->
+<section class="page" id="page-results"><div id="re-out"></div></section>
+
+<!-- ============ RUNS ============ -->
+<section class="page" id="page-runs"><div class="card" style="padding:0"><div class="table-wrap runs-wrap"><table id="runsTable"><thead><tr>
+  <th style="padding-left:20px">运行</th><th>类型</th><th>状态</th><th>进度</th><th class="num">调用</th><th class="num">费用</th><th>模型</th><th><span class="sr">操作</span></th></tr></thead>
+  <tbody></tbody></table></div></div>
+  <div class="card" style="margin-top:16px"><div class="row between" style="flex-wrap:wrap;gap:8px"><h2 style="margin:0">存档</h2>
+    <label class="btn ghost"><input type="file" id="importZip" accept=".zip,application/zip" class="sr">导入存档(zip)</label></div>
+    <p class="muted small" id="archiveDir">每次运行的记录一直保存在 runs/ 里。「保存到存档」会把全部记录和一个能离线打开的论坛网页打包成 zip,放进 archive/;从存档恢复或导入 zip 后,可以在平台里重新查看论坛、结果和每个 Agent 的视角。</p>
+    <div class="table-wrap"><table id="archiveTable"><thead><tr><th style="padding-left:20px">存档</th><th>运行</th><th>状态</th><th class="num">费用</th><th>保存时间</th><th class="num">大小</th><th><span class="sr">操作</span></th></tr></thead><tbody></tbody></table></div></div>
+</section>
+
+<!-- ============ MODELS ============ -->
+<section class="page" id="page-models">
+  <div class="cols-2">
+    <div class="card"><h2>Anthropic API 密钥</h2>
+      <p class="muted small">只保存在本机的 <code>software/moltbox/.env</code>,不会进入 Git,也不会显示在页面上。</p>
+      <div id="keyBox"></div>
+      <div class="row" style="margin-top:10px"><label class="sr" for="keyInput">API 密钥</label>
+        <input type="password" id="keyInput" placeholder="sk-ant-..." style="flex:1;min-width:220px" autocomplete="off"><button id="keySave" class="primary">保存</button></div></div>
+    <div class="card"><h2>价格(每百万 token,美元)</h2>
+      <p class="muted small">估算和预算控制按这里的价格计算。付费前请到 Anthropic 官网核对。</p>
+      <div class="table-wrap"><table class="edit" id="priceTable"><thead><tr><th>模型</th><th class="num">输入</th><th class="num">输出</th><th><span class="sr">保存</span></th></tr></thead><tbody></tbody></table></div>
+      <div class="row" style="margin-top:10px"><label class="sr" for="newModel">新模型</label><input id="newModel" placeholder="添加模型 id,例如 claude-sonnet-5" style="flex:1;min-width:200px"><button id="addModel"><svg class="icon"><use href="#i-plus"/></svg>添加</button></div></div>
+  </div>
+</section>
+    </main>
+  </div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Agent 详情" aria-hidden="true">
+  <div class="row between"><span class="hint">Agent 详情 · Esc 关闭</span><button class="iconbtn" id="drawerClose" aria-label="关闭"><svg class="icon"><use href="#i-x"/></svg></button></div>
+  <div id="drawerBody"></div>
+</aside>
+<dialog id="confirmDlg"><h2 id="cd-title">确认</h2><div id="cd-body"></div>
+  <div class="row" style="justify-content:flex-end;margin-top:18px"><button id="cd-no">取消</button><button id="cd-yes" class="primary">确认运行</button></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="offline" id="offline" role="alert" hidden><b>连不上服务器</b><span>这个网页还开着,但后台程序已经停了,所以论坛和结果都打不开。请在终端运行 ./start.sh;启动后本页会自动刷新。</span></div>
+<script src="/static/i18n.js"></script>
+<script src="/static/app.js"></script>
+<script src="/static/forum.js"></script>
+</body>
+</html>

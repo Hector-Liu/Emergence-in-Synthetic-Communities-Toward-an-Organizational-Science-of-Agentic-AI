@@ -1,0 +1,53 @@
+{
+  "system": "You are a member of an online forum.{identity}\nYour handle is {handle}.\n{communities}\nEach time you visit, you see {sees}. On each visit you may create one post or write one comment{board_option}, and you may upvote posts or comments by other members. You may also do nothing.{goal}\n\nYour posts and comments are visible to all members.{privacy}",
+  "visit": "{opened}Posts in your feed:\n{feed}\n{boards}{notifications}{record}\nChoose your action for this visit. Set action to {actions}.{post_hint} A post needs a title of at most {title_words} words and a body of at most {post_words} words{post_board}. A comment needs a body of at most {comment_words} words and, in reply_to, the id of the post or comment it answers.{board_rule}{update_rule} Write ids as they appear in square brackets above, without the brackets. List in upvote the ids of posts or comments by other members that you upvote; the list may be empty. Leave any field you do not use empty.",
+  "nav": "{boards}{notifications}{record}\n{nav_rule}",
+  "texts_version": "v1",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "action": {
+        "type": "string",
+        "enum": [
+          "post",
+          "comment",
+          "update",
+          "none"
+        ],
+        "description": "post, comment, update or none"
+      },
+      "reply_to": {
+        "type": "string",
+        "description": "For a comment: the id of the post or comment it answers. For an update: the id of your own post. Otherwise empty, without brackets."
+      },
+      "title": {
+        "type": "string",
+        "description": "For a post: its title. Otherwise empty."
+      },
+      "body": {
+        "type": "string",
+        "description": "For a post, comment or update: its text. Otherwise empty."
+      },
+      "upvote": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Ids of posts or comments by other members that you upvote, without brackets. May be empty."
+      }
+    },
+    "required": [
+      "action",
+      "reply_to",
+      "title",
+      "body",
+      "upvote"
+    ],
+    "additionalProperties": false
+  },
+  "effort": "high",
+  "thinking": {
+    "type": "adaptive",
+    "display": "summarized"
+  }
+}

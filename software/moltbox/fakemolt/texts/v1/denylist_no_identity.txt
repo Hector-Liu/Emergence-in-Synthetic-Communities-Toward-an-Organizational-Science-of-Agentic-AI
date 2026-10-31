@@ -1,0 +1,11 @@
+# Added when tell_ai = false: no engine text may say what the members are.
+ai
+agent
+agents
+model
+human
+humans
+person
+people
+bot
+bots

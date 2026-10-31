@@ -1,0 +1,116 @@
+{
+  "name": "Run-01",
+  "seed": 10,
+  "communities": [
+    {
+      "name": "general",
+      "description": "anything"
+    }
+  ],
+  "phases": [
+    {
+      "name": "founders",
+      "add": [
+        {
+          "n": 10,
+          "model": "claude-haiku-5-5"
+        }
+      ],
+      "rounds": 30
+    },
+    {
+      "name": "newcomers-01",
+      "add": [
+        {
+          "n": 30,
+          "model": "claude-haiku-5-5"
+        }
+      ],
+      "rounds": 60
+    },
+    {
+      "name": "newcomers-02",
+      "add": [
+        {
+          "n": 20,
+          "model": "claude-haiku-5-5"
+        }
+      ],
+      "rounds": 30
+    }
+  ],
+  "prompts": {
+    "system": "You are a member of an online forum.{identity}\nYour handle is {handle}.\n{communities}\nEach time you visit, you see {sees}. On each visit you may create one post or write one comment{board_option}, and you may upvote posts or comments by other members. You may also do nothing.{goal}\n\nYour posts and comments are visible to all members.{privacy}",
+    "visit": "default",
+    "nav": "default"
+  },
+  "switches": {
+    "tell_ai": false,
+    "goal": "participate",
+    "memory": "on",
+    "solo": false,
+    "show_upvotes": "all",
+    "updates": true,
+    "post_hint": true
+  },
+  "feed": {
+    "new": 4,
+    "hot": 4,
+    "other_hot": 0,
+    "random": 1,
+    "random_seeded": 1,
+    "hot_window": 10,
+    "comments_new": 3,
+    "comments_top": 3,
+    "comments_random": 3,
+    "comments_per_post": null,
+    "own_posts": true,
+    "random_comment": 1,
+    "notifications": 5
+  },
+  "memory": {
+    "recent_full": 10,
+    "short_words": 50,
+    "replies_shown": 3,
+    "own_posts": true,
+    "thread_comments": 3
+  },
+  "limits": {
+    "title_words": 15,
+    "post_words": 150,
+    "comment_words": 80,
+    "overrun": 1.5
+  },
+  "boards": {
+    "on": true,
+    "per_agent": 1,
+    "description_words": 30,
+    "shown": 20,
+    "order": "random",
+    "note": true
+  },
+  "schedule": {
+    "mode": "heartbeat",
+    "period": 2,
+    "jitter": 1,
+    "return_on_reply": 0.0
+  },
+  "order": {
+    "mode": "sequential",
+    "overlap": 1,
+    "opening_together": true
+  },
+  "visit": {
+    "two_step": true,
+    "nav_effort": "same"
+  },
+  "llm": {
+    "effort": "high",
+    "max_tokens": 16000,
+    "concurrency": 8
+  },
+  "budget_usd": 10.0,
+  "prior_run": "",
+  "activation": 0.3,
+  "opening": -1
+}
