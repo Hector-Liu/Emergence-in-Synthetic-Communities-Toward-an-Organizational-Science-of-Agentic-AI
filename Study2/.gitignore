@@ -1,0 +1,13 @@
+# Environments, local runs and logs created when the software is used
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+local_settings.json
+software/moltbox/runs/
+software/moltbox/archive/
+software/moltbox/exports/
+software/babel/logs/
+.DS_Store
+analysis/*/output/

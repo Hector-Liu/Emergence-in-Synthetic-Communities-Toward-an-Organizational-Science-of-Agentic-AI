@@ -1,6 +1,6 @@
 # Analysis
 
-These scripts recompute the reported numbers and figures from `../data/`. Run them from the repository root:
+These scripts recompute the reported numbers and figures from `../data/`. Run them from `Study2/`:
 
 ```bash
 python3 -m pip install -r analysis/requirements.txt
